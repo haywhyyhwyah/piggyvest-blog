@@ -193,6 +193,12 @@ body{
     height: 350px;
 }
 
+.displaycards2{
+    display: flex;
+    gap: 20px;
+    height: 350px;
+}
+
 .cardimage{
     width: 95%;
     height: 200px;
@@ -200,6 +206,42 @@ body{
 }
 
 .cardcontainer{
+    width: 100%;
+    height: 300px;
+    line-height: 25px;
+}
+
+.cardcontainer1{
+    width: 100%;
+    height: 300px;
+    line-height: 25px;
+}
+
+.cardcontainer2{
+    width: 100%;
+    height: 300px;
+    line-height: 25px;
+}
+
+.cardcontainer3{
+    width: 100%;
+    height: 300px;
+    line-height: 25px;
+}
+
+.cardcontainer4{
+    width: 100%;
+    height: 300px;
+    line-height: 25px;
+}
+
+.cardcontainer5{
+    width: 100%;
+    height: 300px;
+    line-height: 25px;
+}
+
+.cardcontainer6{
     width: 100%;
     height: 300px;
     line-height: 25px;
@@ -243,7 +285,7 @@ body{
     background-color: black;
     width: 100%;
     height: 750px;
-    position: absolute;
+    /* position: absolute; */
     align-items: center;
     padding-left: 30px;
 }
@@ -263,7 +305,6 @@ body{
 }
 
 .subscribe{
-    margin-top: 750px;
     width: 100%;
     height: 250px;
     background-color: #0e5fd8;
@@ -353,8 +394,8 @@ body{
 }
 
 .endingpics{
-   width: 250px;
-   height: 60px;
+    width: 250px;
+    height: 60px;
 }
 
 .parentdiv{
@@ -363,7 +404,7 @@ body{
 }
 
 .subdiv{
-   width: 230px;
+    width: 230px;
 }
 
 .subdiv2{
@@ -405,6 +446,10 @@ ul{
 }
 
 @media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+
     .navlink{
         display: none;
     }
@@ -444,11 +489,171 @@ ul{
 
     .displaycards{
         flex-direction: column;
-        gap: 50px;
+        gap: 80px;
     }
 
     .cardcontainer{
         gap: 30px;
+    }
+
+    .overlay{
+        margin-top: 700px;
+        height: 550px;
+        width: 90%;
+        top: 300;
+    }
+
+    .overlay2{
+        width: 100%;
+        height: 1650px;
+        /* align-content: center; */
+        justify-content: center;
+    }
+
+    .subscribe{
+        /* width: 100%; */
+        flex-direction: column;
+        gap: 0px;
+        height: 300px;
+    }
+
+    .subscribe div {
+        width: 100%;
+    }
+
+    .subcard{
+        flex-direction: column;
+    }
+
+    .subsubscribe{
+        width: 100%;
+        gap: 100px;
+    }
+
+    .subsubscribe h3{
+        font-size: 15px;
+    }
+
+    .para{
+        font-size: 10px;
+    }
+
+    .displaycards2{
+        margin-top: 750px;
+        flex-direction: column;
+    }
+
+    .n7{
+        margin-top: 680px;
+    }
+
+    .ending{
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .navlink{
+        display: none;
+    }
+
+    .twins{
+        display: none;
+    }
+
+    .nav-img{
+        display: block;
+    }
+
+    .pics{
+        width: 100%;
+    }
+
+    .section{
+        flex-direction: column;
+        margin-top: 170px;
+    }
+
+    .card{
+        margin-top: 230px;
+    }
+
+    .card1{
+        margin-top: 800px;
+        flex-wrap: wrap;
+    }
+
+    .card2{
+        margin-top: 750px;
+    }
+
+    .card3{
+        margin-top: 750px;
+    }
+
+    .displaycards{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .cardcontainer{
+        gap: 30px;
+    }
+
+    .overlay{
+        margin-top: 700px;
+        height: 550px;
+        width: 90%;
+        top: 300;
+    }
+
+    .overlay2{
+        width: 100%;
+        height: 1650px;
+        /* align-content: center; */
+        justify-content: center;
+    }
+
+    .subscribe{
+        /* width: 100%; */
+        flex-direction: column;
+        gap: 0px;
+        height: 300px;
+    }
+
+    .subscribe div {
+        width: 100%;
+    }
+
+    .subcard{
+        flex-direction: column;
+    }
+
+    .subsubscribe{
+        width: 100%;
+        gap: 100px;
+    }
+
+    .subsubscribe h3{
+        font-size: 15px;
+    }
+
+    .para{
+        font-size: 10px;
+    }
+
+    .displaycards2{
+        margin-top: 750px;
+        flex-direction: column;
+    }
+
+    .n7{
+        margin-top: 680px;
+    }
+
+    .ending{
+        flex-direction: column;
     }
 }
 
@@ -456,7 +661,7 @@ ul{
 
 
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .nav-img{
         display: none;
     }
